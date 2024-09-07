@@ -1,3 +1,49 @@
 body {
-    background-color: red;
+    background-image: url('https://www.publicdomainpictures.net/pictures/140000/velka/switzerland-mountains-1444833838K08.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white; /* Optional: To ensure text is readable on the background */
+}
+
+body.about {
+    background-color: green;
+}
+
+h1 {
+    font-family: 'Arial', sans-serif;
+    font-size: 3em;
+    text-align: center;
+    margin-top: 20px;
+    color: #FFD700; /* Gold color */
+    text-shadow: 2px 2px 4px #000000; /* Black shadow */
+    border-bottom: 2px solid #FFD700; /* Gold bottom border */
+    padding-bottom: 10px;
+}
+
+a {
+    display: block;
+    text-align: center;
+    margin: 20px 0;
+    font-size: 1.5em;
+    color: #FFD700;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.slideshow {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.slideshow img {
+    width: 100%;
+    height: auto;
+    max-height: 400px; /* Set a maximum height */
+    object-fit: cover; /* Ensures the image covers the container without distortion */
 }
